@@ -1,0 +1,121 @@
+RPI Configuration settings
+
+Download and install default raspbian wheezy: 
+https://downloads.raspberrypi.org/raspbian/images/raspbian-2015-05-07/2015-05-05-raspbian-wheezy.zip
+
+-------------
+Configuration and optimalization
+-------------
+apt-get update
+apt-get upgrade
+
+apt-get remove pistore debian-reference-en scratch wolfram* midori omxplayer dillo xpdf galculator netsurf* psmisc idle-p* sonic-pi qjackctl
+apt-get remove debian-reference-en
+apt-get install mono-complete sysv-rc-conf arduino
+apt-get remove scratch
+apt-get remove wolfram*
+apt-get remove midori
+apt-get remove lxde-icon-remove
+apt-get remove omxplayer
+apt-get remove dillo
+apt-get remove xpdf
+apt-get remove galculator
+apt-get remove -y netsurf*
+apt-get remove -y psmisc
+apt-get remove -y idle-p*
+apt-get remove sonic-pi
+apt-get remove qjackctl
+apt-get remove alsa
+apt-get remove python-rpi.gpio
+apt-get autoremove
+apt-get clean
+
+-------
+Network access share
+
+apt-get install samba samba-common-bin
+
+mkdir /home/pi/Atum
+mkdir /home/pi/Atum/printqueue (zonder sudo)
+mkdir /home/pi/Atum/Atum.Update
+mkdir /home/pi/Atum/Logging
+nano /etc/samba/smb.config
+[printqueue$]
+   comment= Atum print queue
+   path=/home/pi/Atum/printqueue
+   browseable=Yes
+   writeable=Yes
+   only guest=no
+   create mask=0777
+   directory mask=0777
+   public=yes
+
+[logging$]
+   comment= Atum Logging
+   path=/home/pi/Atum/Logging
+   browseable=Yes
+   writeable=no
+   only guest=no
+   create mask=0777
+   directory mask=0777
+   public=yes
+
+[atum.update$]
+   comment= Atum update
+   path=/home/pi/Atum/Atum.Update
+   browseable=Yes
+   writeable=Yes
+   only guest=no
+   create mask=0777
+   directory mask=0777
+   public=yes
+
+--dont forget to copy legacy xml 
+
+smbpasswd -a pi (empty)
+smbpasswd -an nobody (empty)
+chmod -R a+rwx ./printqueue
+chmod -R a+rwx ./Atum.Update
+chmod -R a+rwx ./Logging
+
+--- monitor standby
+
+nano /etc/lightdm/lightdm.conf
+[SeatDefaults]
+xserver-command=X -s 0 -dpms
+
+/boot/config.txt (resolution)
+hdmi_group=2
+hdmi..=68
+
+force_turbo=1
+initial_turbo=60
+
+~/.config/autostart/.desktop
+[Desktop Entry]
+
+Type=Application
+
+Exec=mono /home/pi/Atum/Atum.PrinterClient.exe
+
+
+
+/disable autorun popup 
+~/.config/pcmanfm/LXDE/pcmanfm.conf (autorun=0 en forecolor)
+
+--backgroundblack and toolbar hidden and black
+
+/boot/config.txt
+HDMI_GROUP=2
+HDMI_CODE=68 //1920x1200
+
+--disable sound
+rm /etc/init.d/alsa-utils
+rm /etc/init.d/cron
+nano /etc/modules
+
+--disable mouse cursor
+sudo apt-get install unclutter
+unclutter -display :0 -noevents -grab
+
+--remove terminal icon from desktop

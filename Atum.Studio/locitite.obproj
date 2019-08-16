@@ -1,0 +1,88 @@
+<Project ProjectFileVersion="4" UseRelativePaths="True" CheckVersionsWhileResolvingAssemblies="True" DisabledFromMSBuild="False" ID="{330ea934-0db9-405a-8b6f-f406e6383179}">
+  <SearchDirectories />
+  <OutputSettings OutputPath=".\bin\x86\Loctite\Crypted" MainAssemblyPath="" RunAssemblyPath="" SNPath="" SignToolPath="" LicensingDLLPath="" OverwriteInputFiles="False" BuildID="" MapFilesLocation="" FullParamNamesInMappingFile="False">
+    <AdditionalAssemblies />
+  </OutputSettings>
+  <ExceptionReporting ExceptionReportingServiceURL="" TryToContinueOnException="True" LocalReportPath=".\locitite_ExceptionReports" ApplicationName="" CompanyName="" ShowUI="True" EnableSaveToFileButton="True" EnableSendReportButton="True" DeleteDownloadedReportsFromServer="True" />
+  <ObfuscationSettings RenamingScheme="0" UseOverloadedFieldNames="False" UseOverloadedMethodNames="False" HonorObfuscationAttributes="True" ExcludeSerializedTypes="True" ProcessInlineStrings="True" ForceXAMLProcessingModeExclude="False" ForceRenameParams="False" SymbolPrefix="" SymbolSuffix="" FakeFields="" FakeTypes="" FakeMethods="" EncryptionActive="True" CompressionActive="True" RemoveAccessedThroughPropertyAttribute="False" UseSaltForCryptographicRenaming="False" />
+  <ObfuscationRules>
+    <Rule Enabled="False" Type="0" Target="0" Visibility="31" Pattern="ct:" AdditionalPattern="ct:" AdditionalPatternMatchesExactTypeOnly="True" AdditionalPatternAppliesTo="2" />
+  </ObfuscationRules>
+  <InclusionExclusionRules>
+    <Entity FullName="Atum.DAL:Atum.DAL.Catalogs">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="Atum.DAL:Atum.DAL.Hardware">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="Atum.DAL:Atum.DAL.Materials">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.DAL]Atum.DAL.Print.PrintJob">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="Atum.DAL:Atum.DAL.Remoting">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Models.STLModel3D">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Models.SupportCone">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Models.WorkspaceSTLModel">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Models.WorkspaceSTLModelContour">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Models.WorkspaceSTLModelFlatSurfaceIndex">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Models.WorkspaceSTLModelFlatSurface">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Models.WorkspaceSTLModelHorizontalSurface">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Models.WorkspaceSTLModelHorizontalSurfaceIndex">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Models.WorkspaceSTLModelSupport">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.Triangle">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.TriangleInfoList">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.TriangleSurfaceIndexInfo">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.TriangleSurfaceInfo">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.TriangleSurfaceInfoList">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+  </InclusionExclusionRules>
+  <Assembly Load="true" Path=".\bin\x86\Loctite\Atum.DAL.dll" XapEntryName="" KeyFilePath="" KeyFileContainsPublicKeyOnly="False" CertFilePath="" TimeStampURL="" Rfc3161TimestampURL="False" SHA256SigningAlgorithm="False" Embed="True" AddExceptionReporting="False" PfxPassword="" PfxPasswordCert="" IsWinRTAssembly="False">
+    <ObfuscationSettings EncryptStrings="True" EncryptMethods="False" EncryptConstants="False" SuppressReflector="False" ReduceMetaData="False" ObfuscationDisposition="1" FlowObfuscation="2" CodeMasking="0" SuppressILDASM="True" SuppressReflection="False" CombineResources="True" EncryptResources="True" CompressResources="True" MarkAsSealed="False" EnableTamperDetection="False" EnableAntiDebugging="False" SymbolRenaming="True" HideExternalCalls="False" HideInternalCalls="False" GeneratePdbFile="True" ObfuscatePdbFileNames="True" IncludeLocalVariablesInPdbFile="False" Encrypt="False" Compress="False" MSBuild="False" ObfuscatedNamespace="A" RetainNamespace="False" ModuleInitializationMethod="" LicensingMerge="False" RemoveConstants="False" ProcessSatelliteAssemblies="True">
+      <Watermarks Watermark0="" Watermark1="" Watermark2="" Watermark3="" Watermark4="" Watermark5="" Watermark6="" Watermark7="" Watermark8="" Watermark9="" />
+    </ObfuscationSettings>
+  </Assembly>
+  <Assembly Load="true" Path=".\bin\x86\Loctite\Atum.Studio.exe" XapEntryName="" KeyFilePath="" KeyFileContainsPublicKeyOnly="False" CertFilePath="" TimeStampURL="" Rfc3161TimestampURL="False" SHA256SigningAlgorithm="False" Embed="True" AddExceptionReporting="False" PfxPassword="" PfxPasswordCert="" IsWinRTAssembly="False">
+    <ObfuscationSettings EncryptStrings="True" EncryptMethods="False" EncryptConstants="False" SuppressReflector="False" ReduceMetaData="False" ObfuscationDisposition="1" FlowObfuscation="2" CodeMasking="0" SuppressILDASM="True" SuppressReflection="False" CombineResources="True" EncryptResources="True" CompressResources="True" MarkAsSealed="False" EnableTamperDetection="False" EnableAntiDebugging="False" SymbolRenaming="True" HideExternalCalls="False" HideInternalCalls="False" GeneratePdbFile="True" ObfuscatePdbFileNames="True" IncludeLocalVariablesInPdbFile="False" Encrypt="False" Compress="False" MSBuild="False" ObfuscatedNamespace="A" RetainNamespace="False" ModuleInitializationMethod="" LicensingMerge="False" RemoveConstants="False" ProcessSatelliteAssemblies="True">
+      <Watermarks Watermark0="" Watermark1="" Watermark2="" Watermark3="" Watermark4="" Watermark5="" Watermark6="" Watermark7="" Watermark8="" Watermark9="" />
+    </ObfuscationSettings>
+  </Assembly>
+  <Assembly Load="true" Path=".\bin\x86\Loctite\OpenTK.dll" XapEntryName="" KeyFilePath="" KeyFileContainsPublicKeyOnly="False" CertFilePath="" TimeStampURL="" Rfc3161TimestampURL="False" SHA256SigningAlgorithm="False" Embed="True" AddExceptionReporting="False" PfxPassword="" PfxPasswordCert="" IsWinRTAssembly="False">
+    <ObfuscationSettings EncryptStrings="True" EncryptMethods="False" EncryptConstants="False" SuppressReflector="False" ReduceMetaData="False" ObfuscationDisposition="1" FlowObfuscation="2" CodeMasking="0" SuppressILDASM="True" SuppressReflection="False" CombineResources="True" EncryptResources="True" CompressResources="True" MarkAsSealed="False" EnableTamperDetection="False" EnableAntiDebugging="False" SymbolRenaming="True" HideExternalCalls="False" HideInternalCalls="False" GeneratePdbFile="False" ObfuscatePdbFileNames="True" IncludeLocalVariablesInPdbFile="False" Encrypt="False" Compress="False" MSBuild="False" ObfuscatedNamespace="A" RetainNamespace="False" ModuleInitializationMethod="" LicensingMerge="False" RemoveConstants="False" ProcessSatelliteAssemblies="True">
+      <Watermarks Watermark0="" Watermark1="" Watermark2="" Watermark3="" Watermark4="" Watermark5="" Watermark6="" Watermark7="" Watermark8="" Watermark9="" />
+    </ObfuscationSettings>
+  </Assembly>
+  <WarningSuppressions />
+  <Warnings SaveWarningsToFile="" FailOnUnsuppressedWarning="False" SaveSuppressedWarnings="True" SaveUnsuppressedWarnings="True" />
+  <Filters />
+</Project>

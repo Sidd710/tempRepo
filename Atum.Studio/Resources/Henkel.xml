@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MaterialsBySupplier xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Materials>
+    <Material>
+      <ID>BD44656E-5DA0-42C0-B1F1-1C41DBABA670</ID>
+      <IsDefault>false</IsDefault>
+      <InitialLayers>2</InitialLayers>
+      <PreparationLayersCount>0</PreparationLayersCount>
+      <UniqueNumber>3830 Black</UniqueNumber>
+      <Color>Black</Color>
+      <ArticleNumber>3830 Black</ArticleNumber>
+      <ArticleHTTP></ArticleHTTP>
+      <BatchNumber>0</BatchNumber>
+      <Price>0</Price>
+      <Name>3830 Black</Name>
+      <DisplayName>3830 Black</DisplayName>
+      <Status></Status>
+      <CT1>33</CT1>
+      <CT2>6</CT2>
+      <RH1>7</RH1>
+      <RH2>8</RH2>
+      <RSU1>75</RSU1>
+      <RSU2>75</RSU2>
+      <TAT1>1</TAT1>
+      <TAT2>1</TAT2>
+      <RT1>2</RT1>
+      <RT2>2</RT2>
+      <RSD1>100</RSD1>
+      <RSD2>100</RSD2>
+      <LT1>0.1</LT1>
+      <LT2>0.05</LT2>
+      <ModelColor>-8355712</ModelColor>
+      <XYResolution>100</XYResolution>
+      <PrinterHardwareType>{D2C7D9F9-F88E-4FB3-A431-D4B4EF5E8DA2}</PrinterHardwareType>
+      <LightIntensityPercentage1>100</LightIntensityPercentage1>
+      <LightIntensityPercentage2>100</LightIntensityPercentage2>
+    </Material>
+    <Material>
+      <ID>BD44656E-5DA0-42C0-B1F1-1C41DBABA669</ID>
+      <IsDefault>true</IsDefault>
+      <InitialLayers>2</InitialLayers>
+      <PreparationLayersCount>0</PreparationLayersCount>
+      <UniqueNumber>3830 Clear</UniqueNumber>
+      <Color>Transparent</Color>
+      <ArticleNumber>3830 Clear</ArticleNumber>
+      <ArticleHTTP></ArticleHTTP>
+      <BatchNumber>0</BatchNumber>
+      <Price>0</Price>
+      <Name>3830 Clear</Name>
+      <DisplayName>3830 Clear</DisplayName>
+      <Status></Status>
+      <CT1>30</CT1>
+      <CT2>5.5</CT2>
+      <RH1>7</RH1>
+      <RH2>7</RH2>
+      <RSU1>75</RSU1>
+      <RSU2>75</RSU2>
+      <TAT1>1</TAT1>
+      <TAT2>1</TAT2>
+      <RT1>2</RT1>
+      <RT2>2</RT2>
+      <RSD1>100</RSD1>
+      <RSD2>100</RSD2>
+      <LT1>0.1</LT1>
+      <LT2>0.05</LT2>
+      <XYResolution>100</XYResolution>
+      <PrinterHardwareType>{D2C7D9F9-F88E-4FB3-A431-D4B4EF5E8DA2}</PrinterHardwareType>
+      <LightIntensityPercentage1>100</LightIntensityPercentage1>
+      <LightIntensityPercentage2>100</LightIntensityPercentage2>
+    </Material>
+	<Material>
+      <ID>BD44656E-5DA0-42C0-B1F1-1C41DBABA670</ID>
+      <IsDefault>false</IsDefault>
+      <InitialLayers>2</InitialLayers>
+      <PreparationLayersCount>0</PreparationLayersCount>
+      <UniqueNumber>3830 Grey</UniqueNumber>
+      <Color>Grey</Color>
+      <ArticleNumber>3830 Grey</ArticleNumber>
+      <ArticleHTTP></ArticleHTTP>
+      <BatchNumber>0</BatchNumber>
+      <Price>0</Price>
+      <Name>3830 Grey</Name>
+      <DisplayName>3830 Grey</DisplayName>
+      <Status></Status>
+      <CT1>60</CT1>
+      <CT2>5.5</CT2>
+      <RH1>7</RH1>
+      <RH2>7</RH2>
+      <RSU1>75</RSU1>
+      <RSU2>75</RSU2>
+      <TAT1>1</TAT1>
+      <TAT2>1</TAT2>
+      <RT1>2</RT1>
+      <RT2>2</RT2>
+      <RSD1>100</RSD1>
+      <RSD2>100</RSD2>
+      <LT1>0.1</LT1>
+      <LT2>0.05</LT2>
+      <ModelColor>-9276814</ModelColor>
+      <XYResolution>100</XYResolution>
+      <PrinterHardwareType>{D2C7D9F9-F88E-4FB3-A431-D4B4EF5E8DA2}</PrinterHardwareType>
+      <LightIntensityPercentage1>100</LightIntensityPercentage1>
+      <LightIntensityPercentage2>100</LightIntensityPercentage2>
+    </Material>
+	<Material>
+      <ID>BD44656E-5DA0-42C0-B1F1-1C41DBABA670</ID>
+      <IsDefault>false</IsDefault>
+      <InitialLayers>2</InitialLayers>
+      <PreparationLayersCount>0</PreparationLayersCount>
+      <UniqueNumber>3830 White</UniqueNumber>
+      <Color>White</Color>
+      <ArticleNumber>3830 White</ArticleNumber>
+      <ArticleHTTP></ArticleHTTP>
+      <BatchNumber>0</BatchNumber>
+      <Price>0</Price>
+      <Name>3830 White</Name>
+      <DisplayName>3830 White</DisplayName>
+      <Status></Status>
+      <CT1>45</CT1>
+      <CT2>4</CT2>
+      <RH1>7</RH1>
+      <RH2>7</RH2>
+      <RSU1>75</RSU1>
+      <RSU2>75</RSU2>
+      <TAT1>1</TAT1>
+      <TAT2>1</TAT2>
+      <RT1>2</RT1>
+      <RT2>2</RT2>
+      <RSD1>100</RSD1>
+      <RSD2>100</RSD2>
+      <LT1>0.1</LT1>
+      <LT2>0.05</LT2>
+      <ModelColor>-1</ModelColor>
+      <XYResolution>100</XYResolution>
+      <PrinterHardwareType>{D2C7D9F9-F88E-4FB3-A431-D4B4EF5E8DA2}</PrinterHardwareType>
+      <LightIntensityPercentage1>50</LightIntensityPercentage1>
+      <LightIntensityPercentage2>90</LightIntensityPercentage2>
+    </Material>
+    <Material>
+      <ID>BD44656E-5DA0-42C0-B1F1-1C41DBABA672</ID>
+      <IsDefault>false</IsDefault>
+      <InitialLayers>2</InitialLayers>
+      <PreparationLayersCount>0</PreparationLayersCount>
+      <UniqueNumber>3840 Black</UniqueNumber>
+      <Color>Black</Color>
+      <ArticleNumber>3840 Black</ArticleNumber>
+      <ArticleHTTP></ArticleHTTP>
+      <BatchNumber>0</BatchNumber>
+      <Price>0</Price>
+      <Name>3840 Black</Name>
+      <DisplayName>3840 Black</DisplayName>
+      <Status></Status>
+      <CT1>33</CT1>
+      <CT2>6</CT2>
+      <RH1>7</RH1>
+      <RH2>7</RH2>
+      <RSU1>75</RSU1>
+      <RSU2>75</RSU2>
+      <TAT1>1</TAT1>
+      <TAT2>1</TAT2>
+      <RT1>2</RT1>
+      <RT2>2</RT2>
+      <RSD1>200</RSD1>
+      <RSD2>100</RSD2>
+      <LT1>0.1</LT1>
+      <LT2>0.05</LT2>
+      <ModelColor>-8355712</ModelColor>
+      <XYResolution>100</XYResolution>
+      <PrinterHardwareType>{D2C7D9F9-F88E-4FB3-A431-D4B4EF5E8DA2}</PrinterHardwareType>
+      <LightIntensityPercentage1>100</LightIntensityPercentage1>
+      <LightIntensityPercentage2>100</LightIntensityPercentage2>
+    </Material>
+	<Material>
+      <ID>BD44656E-5DA0-42C0-B1F1-1C41DBABA671</ID>
+      <IsDefault>false</IsDefault>
+      <InitialLayers>2</InitialLayers>
+      <PreparationLayersCount>0</PreparationLayersCount>
+      <UniqueNumber>3840 Clear</UniqueNumber>
+      <Color>Transparent</Color>
+      <ArticleNumber>3840 Clear</ArticleNumber>
+      <ArticleHTTP></ArticleHTTP>
+      <BatchNumber>0</BatchNumber>
+      <Price>0</Price>
+      <Name>3840 Clear</Name>
+      <DisplayName>3840 Clear</DisplayName>
+      <Status></Status>
+      <CT1>30</CT1>
+      <CT2>5.5</CT2>
+      <RH1>7</RH1>
+      <RH2>7</RH2>
+      <RSU1>75</RSU1>
+      <RSU2>75</RSU2>
+      <TAT1>1</TAT1>
+      <TAT2>1</TAT2>
+      <RT1>2</RT1>
+      <RT2>2</RT2>
+      <RSD1>100</RSD1>
+      <RSD2>100</RSD2>
+      <LT1>0.1</LT1>
+      <LT2>0.05</LT2>
+      <XYResolution>100</XYResolution>
+      <PrinterHardwareType>{D2C7D9F9-F88E-4FB3-A431-D4B4EF5E8DA2}</PrinterHardwareType>
+      <LightIntensityPercentage1>100</LightIntensityPercentage1>
+      <LightIntensityPercentage2>100</LightIntensityPercentage2>
+    </Material>
+	<Material>
+      <ID>BD44656E-5DA0-42C0-B1F1-1C41DBABA671</ID>
+      <IsDefault>false</IsDefault>
+      <InitialLayers>2</InitialLayers>
+      <PreparationLayersCount>0</PreparationLayersCount>
+      <UniqueNumber>3840 Grey</UniqueNumber>
+      <Color>Grey</Color>
+      <ArticleNumber>3840 Grey</ArticleNumber>
+      <ArticleHTTP></ArticleHTTP>
+      <BatchNumber>0</BatchNumber>
+      <Price>0</Price>
+      <Name>3840 Grey</Name>
+      <DisplayName>3840 Grey</DisplayName>
+      <Status></Status>
+      <CT1>60</CT1>
+      <CT2>6</CT2>
+      <RH1>7</RH1>
+      <RH2>7</RH2>
+      <RSU1>75</RSU1>
+      <RSU2>75</RSU2>
+      <TAT1>1</TAT1>
+      <TAT2>1</TAT2>
+      <RT1>2</RT1>
+      <RT2>2</RT2>
+      <RSD1>100</RSD1>
+      <RSD2>100</RSD2>
+      <LT1>0.1</LT1>
+      <LT2>0.05</LT2>
+      <ModelColor>-9276814</ModelColor>
+      <XYResolution>100</XYResolution>
+      <PrinterHardwareType>{D2C7D9F9-F88E-4FB3-A431-D4B4EF5E8DA2}</PrinterHardwareType>
+      <LightIntensityPercentage1>100</LightIntensityPercentage1>
+      <LightIntensityPercentage2>100</LightIntensityPercentage2>
+    </Material>
+	<Material>
+      <ID>BD44656E-5DA0-42C0-B1F1-1C41DBABA671</ID>
+      <IsDefault>false</IsDefault>
+      <InitialLayers>2</InitialLayers>
+      <PreparationLayersCount>0</PreparationLayersCount>
+      <UniqueNumber>3840 White</UniqueNumber>
+      <Color>White</Color>
+      <ArticleNumber>3840 White</ArticleNumber>
+      <ArticleHTTP></ArticleHTTP>
+      <BatchNumber>0</BatchNumber>
+      <Price>0</Price>
+      <Name>3840 White</Name>
+      <DisplayName>3840 White</DisplayName>
+      <Status></Status>
+      <CT1>50</CT1>
+      <CT2>6</CT2>
+      <RH1>7</RH1>
+      <RH2>7</RH2>
+      <RSU1>75</RSU1>
+      <RSU2>75</RSU2>
+      <TAT1>1</TAT1>
+      <TAT2>1</TAT2>
+      <RT1>2</RT1>
+      <RT2>2</RT2>
+      <RSD1>100</RSD1>
+      <RSD2>100</RSD2>
+      <LT1>0.1</LT1>
+      <LT2>0.05</LT2>
+	  <ModelColor>-1</ModelColor>
+      <XYResolution>100</XYResolution>
+      <PrinterHardwareType>{D2C7D9F9-F88E-4FB3-A431-D4B4EF5E8DA2}</PrinterHardwareType>
+      <LightIntensityPercentage1>50</LightIntensityPercentage1>
+      <LightIntensityPercentage2>90</LightIntensityPercentage2>
+    </Material>
+  </Materials>
+  <Supplier>Henkel</Supplier>
+</MaterialsBySupplier>

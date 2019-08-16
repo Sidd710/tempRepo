@@ -1,0 +1,1487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <DisableFody Condition="'$(Configuration)' == 'Debug'">true</DisableFody>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{496C9F40-6D0B-405C-A2AC-EF4DBDEBED14}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Atum.Studio</RootNamespace>
+    <AssemblyName>atum3D.OperatorStation</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;RELEASE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>atum3D-transparant.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A402E8470B878424FA7E05DD7E0A7D3C7A4558E0</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestTimestampUrl>http://timestamp.verisign.com/scripts/timstamp.dll</ManifestTimestampUrl>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Loctite|x86'">
+    <OutputPath>bin\x86\Loctite\</OutputPath>
+    <DefineConstants>TRACE;LOCTITE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>false</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <TargetName>Loctite.OS</TargetName>
+    <ApplicationIcon>resources\loctite.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\ramon\Documents\OpenTK\1.1\Binaries\OpenTK\Release\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="Svg, Version=2.2.1.39233, Culture=neutral, PublicKeyToken=12a0bac221edeae2, processorArchitecture=MSIL">
+      <HintPath>..\packages\Svg.2.3.0\lib\net35\Svg.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Branding_Atum3D.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Branding_Atum3D.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Branding_Loctite.Designer.cs">
+      <DependentUpon>Branding_Loctite.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Controls\BasePopupNoTitle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\BasePopupNoTitle.Designer.cs">
+      <DependentUpon>BasePopupNoTitle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BasePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\BasePopup.Designer.cs">
+      <DependentUpon>BasePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BaseToolStripButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CircularProgressBar\CircularProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CircularProgressBar\CircularProgressBar.Designer.cs">
+      <DependentUpon>CircularProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CircularProgressBar\CircularProgressLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CircularProgressBar\CircularProgressLabel.Designer.cs">
+      <DependentUpon>CircularProgressLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CustomTabControl\CustomTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CustomTabControl\NativeMethods.cs" />
+    <Compile Include="Controls\CustomTabControl\TabStyle.cs" />
+    <Compile Include="Controls\CustomTabControl\TabStyleProvider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CustomTabControl\TabStyleProviders\TabStyleAngledProvider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CustomTabControl\TabStyleProviders\TabStyleChromeProvider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CustomTabControl\TabStyleProviders\TabStyleDefaultProvider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CustomTabControl\TabStyleProviders\TabStyleIE8Provider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CustomTabControl\TabStyleProviders\TabStyleNoneProvider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CustomTabControl\TabStyleProviders\TabStyleRoundedProvider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CustomTabControl\TabStyleProviders\TabStyleVisualStudioProvider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CustomTabControl\TabStyleProviders\TabStyleVS2010Provider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CustomTabControl\ThemedColors.cs" />
+    <Compile Include="Controls\DotControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DropdownListItems.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DropdownListItems.Designer.cs">
+      <DependentUpon>DropdownListItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FieldChangedEventArgs.cs" />
+    <Compile Include="Controls\FieldControl.cs" />
+    <Compile Include="Controls\FloatInputField14.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\FloatInputField18.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\FloatInputField14MM.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\FloatInputField18MM.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\frmMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\frmMessageBox.Designer.cs">
+      <DependentUpon>frmMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\InputDialog.cs" />
+    <Compile Include="Controls\IPAddressControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\IPAddressControlDesigner.cs" />
+    <Compile Include="Controls\NewGui\GenericLabelBold12.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\GenericLabelRegular12.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\GenericRichTextBoxRegular16.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\GenericTextboxRegular16.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\GenericTextboxRegular16.Designer.cs">
+      <DependentUpon>GenericTextboxRegular16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\MaterialCatalogManager\MaterialDisplayNameArgs.cs" />
+    <Compile Include="Controls\NewGui\MaterialCatalogManager\MaterialEditorManufacturer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\MaterialCatalogManager\MaterialEditorManufacturer.Designer.cs">
+      <DependentUpon>MaterialEditorManufacturer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\ContextMenu\SupportConeContextMenuStripControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\ContextMenu\SupportConeContextMenuStripControl.Designer.cs">
+      <DependentUpon>SupportConeContextMenuStripControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\ContextMenu\ModelContextMenuStripControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\ContextMenu\ModelContextMenuStripControl.Designer.cs">
+      <DependentUpon>ModelContextMenuStripControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\ContextMenu\ContextMenuItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\ContextMenu\ContextMenuItem.Designer.cs">
+      <DependentUpon>ContextMenuItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\ExportControl\ExportUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\ExportControl\ExportUserControl.Designer.cs">
+      <DependentUpon>ExportUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\GenericNumericUpDowRegular16DecimalsTwo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\GenericNumericUpDowRegular16DecimalsTwo.Designer.cs">
+      <DependentUpon>GenericNumericUpDowRegular16DecimalsTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\GenericNumericUpDowRegular16.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\GenericNumericUpDowRegular16.Designer.cs">
+      <DependentUpon>GenericNumericUpDowRegular16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\MaterialCatalogManager\frmMaterialCatalogManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\MaterialCatalogManager\frmMaterialCatalogManager.Designer.cs">
+      <DependentUpon>frmMaterialCatalogManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\MaterialCatalogManager\MaterialEditorMaterial.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\MaterialCatalogManager\MaterialEditorMaterial.Designer.cs">
+      <DependentUpon>MaterialEditorMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\MaterialCatalogManager\MaterialSupplierDisplayNameArgs.cs" />
+    <Compile Include="Controls\NewGui\PrinterEditorSettings\CalibratePrinter\MaterialSelector.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\SceneControlProgressbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\SceneControlProgressbar.Designer.cs">
+      <DependentUpon>SceneControlProgressbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\frmUSBDriveSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\frmUSBDriveSelector.Designer.cs">
+      <DependentUpon>frmUSBDriveSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\GenericComboxRegular16Disabled.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\GenericComboxRegular16.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\GenericEditableLabel18.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\GenericLabelBold14.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\GenericLabelRegular18.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\GenericLabelRegular14.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\MAGSAITracker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\MAGSAITrackerDesigner.cs" />
+    <Compile Include="Controls\NewGui\MainMenu\MainMenuStrip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\MainMenu\MainMenuStrip.Designer.cs">
+      <DependentUpon>MainMenuStrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\MainMenu\MenuItemControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\MainMenu\MenuItemControl.Designer.cs">
+      <DependentUpon>MenuItemControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\MaterialCatalogus\displayMaterial.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\MaterialCatalogus\displayMaterial.Designer.cs">
+      <DependentUpon>displayMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\MaterialCatalogus\frmMaterialOnlineCatalog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\MaterialCatalogus\frmMaterialOnlineCatalog.Designer.cs">
+      <DependentUpon>frmMaterialOnlineCatalog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\MaterialEditor\frmMaterialEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\MaterialEditor\frmMaterialEditor.Designer.cs">
+      <DependentUpon>frmMaterialEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\MaterialEditor\MaterialMenuStrip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\MaterialEditor\MaterialMenuStrip.Designer.cs">
+      <DependentUpon>MaterialMenuStrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\MaterialEditor\MaterialSummary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\MaterialEditor\MaterialSummary.Designer.cs">
+      <DependentUpon>MaterialSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\MaterialEditor\MaterialValueEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\MaterialEditor\MaterialValueEditor.Designer.cs">
+      <DependentUpon>MaterialValueEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\MaterialEditor\MaterialWithSupplierModel.cs" />
+    <Compile Include="Controls\NewGui\NewGUIContentSplitContainerBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\NewGUIContentSplitContainerBase.Designer.cs">
+      <DependentUpon>NewGUIContentSplitContainerBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\NewGUIFormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\NewGUIFormBase.Designer.cs">
+      <DependentUpon>NewGUIFormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\NewGUIInputBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\NewGUIInputBox.Designer.cs">
+      <DependentUpon>NewGUIInputBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\NewGUIInputBoxReadonly.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\NewGUIInputBoxReadonly.Designer.cs">
+      <DependentUpon>NewGUIInputBoxReadonly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\NewGUILabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\NewGUILabel.Designer.cs">
+      <DependentUpon>NewGUILabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\NewGUIPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\NewGUIPanel.Designer.cs">
+      <DependentUpon>NewGUIPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\NewGUITextboxPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\NewGUITextboxPanel.Designer.cs">
+      <DependentUpon>NewGUITextboxPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\UserPreferences\frmPreference.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\UserPreferences\frmPreference.Designer.cs">
+      <DependentUpon>frmPreference.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\PrinterEditorSettings\CalibratePrinter\frmCalibratePrinter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\PrinterEditorSettings\CalibratePrinter\frmCalibratePrinter.Designer.cs">
+      <DependentUpon>frmCalibratePrinter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\PrinterEditorSettings\CalibratePrinter\frmCalibrationComplete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\PrinterEditorSettings\CalibratePrinter\frmCalibrationComplete.Designer.cs">
+      <DependentUpon>frmCalibrationComplete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\PrinterEditorSettings\CalibratePrinter\TrapeziumInputArrowBelow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\PrinterEditorSettings\CalibratePrinter\TrapeziumInputArrowBelow.Designer.cs">
+      <DependentUpon>TrapeziumInputArrowBelow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\PrinterEditorSettings\CalibratePrinter\TrapeziumInputArrowAbove.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\PrinterEditorSettings\CalibratePrinter\TrapeziumInputArrowAbove.Designer.cs">
+      <DependentUpon>TrapeziumInputArrowAbove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\PrinterEditorSettings\frmPrinterEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\PrinterEditorSettings\frmPrinterEditor.Designer.cs">
+      <DependentUpon>frmPrinterEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\PrinterEditorSettings\PrinterMenuStrip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\PrinterEditorSettings\PrinterMenuStrip.Designer.cs">
+      <DependentUpon>PrinterMenuStrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\PrinterEditorSettings\PrinterAddControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\PrinterEditorSettings\PrinterAddControl.Designer.cs">
+      <DependentUpon>PrinterAddControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\PrinterEditorSettings\PrinterResolution.cs" />
+    <Compile Include="Controls\NewGui\PrinterEditorSettings\PrinterSummaryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\PrinterEditorSettings\PrinterSummaryControl.Designer.cs">
+      <DependentUpon>PrinterSummaryControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\PrinterEditorSettings\PrinterValueEditorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\PrinterEditorSettings\PrinterValueEditorControl.Designer.cs">
+      <DependentUpon>PrinterValueEditorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\RoundedRightButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\RoundedLeftButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\RoundedButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\SliderControl\SliderControlTracker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\SliderControl\SliderControlTrackerDesigner.cs" />
+    <Compile Include="Controls\NewGui\SplashControl\SplashControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\SplashControl\SplashControl.Designer.cs">
+      <DependentUpon>SplashControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\SplashControl\SplashFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\SplashControl\SplashFrm.Designer.cs">
+      <DependentUpon>SplashFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\SplashControl\UnlicensedControl\LicensedProgramControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\SplashControl\UnlicensedControl\LicensedProgramControl.Designer.cs">
+      <DependentUpon>LicensedProgramControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\SplashControl\UnlicensedControl\RecentFilesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\SplashControl\UnlicensedControl\RecentFilesControl.Designer.cs">
+      <DependentUpon>RecentFilesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\SplashControl\UnlicensedControl\RecentFiles\RecentOpenedFile.cs" />
+    <Compile Include="Controls\NewGui\SplashControl\UnlicensedControl\RecentOpenFileControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\SplashControl\UnlicensedControl\RecentOpenFileControl.Designer.cs">
+      <DependentUpon>RecentOpenFileControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\SplashControl\UnlicensedControl\UnlicensedProgramControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\SplashControl\UnlicensedControl\UnlicensedProgramControl.Designer.cs">
+      <DependentUpon>UnlicensedProgramControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\SupportContact\ContactControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\SupportContact\ContactControl.Designer.cs">
+      <DependentUpon>ContactControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\SupportContact\frmContact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\SupportContact\frmContact.Designer.cs">
+      <DependentUpon>frmContact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\SupportContact\OperatorStationOnlineManual.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\SupportContact\OperatorStationOnlineManual.Designer.cs">
+      <DependentUpon>OperatorStationOnlineManual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\SupportContact\SubmitBugFeatureRequest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\SupportContact\SubmitBugFeatureRequest.Designer.cs">
+      <DependentUpon>SubmitBugFeatureRequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewGui\USBDriveSummary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewGui\USBDriveSummary.Designer.cs">
+      <DependentUpon>USBDriveSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\OpenGL\Agl.cs" />
+    <Compile Include="Controls\OpenGL\AglContext.cs" />
+    <Compile Include="Controls\OpenGL\AglGraphicsMode.cs" />
+    <Compile Include="Controls\OpenGL\Carbon.cs" />
+    <Compile Include="Controls\OpenGL\CarbonGLControl.cs" />
+    <Compile Include="Controls\OpenGL\DummyGLControl.cs" />
+    <Compile Include="Controls\OpenGL\GLControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\OpenGL\GLControl.Designer.cs">
+      <DependentUpon>GLControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\OpenGL\GLControlFactory.cs" />
+    <Compile Include="Controls\OpenGL\IGLControl.cs" />
+    <Compile Include="Controls\OpenGL\NS.cs" />
+    <Compile Include="Controls\OpenGL\SceneControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\OpenGL\SceneControl.Designer.cs">
+      <DependentUpon>SceneControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SceneControlActionPanel\DuplicateModelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SceneControlActionPanel\DuplicateModelControl.Designer.cs">
+      <DependentUpon>DuplicateModelControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SceneControlActionPanel\SceneControlActionSubPanelBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SceneControlActionPanel\SceneControlActionSubPanelBase.Designer.cs">
+      <DependentUpon>SceneControlActionSubPanelBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SceneControlActionPanel\SceneControlModelRotate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SceneControlActionPanel\SceneControlModelRotate.Designer.cs">
+      <DependentUpon>SceneControlModelRotate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SceneControlActionPanel\SceneControlModelMove.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SceneControlActionPanel\SceneControlModelMove.Designer.cs">
+      <DependentUpon>SceneControlModelMove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SceneControlActionPanel\SceneControlModelScale.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SceneControlActionPanel\SceneControlModelScale.Designer.cs">
+      <DependentUpon>SceneControlModelScale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SceneControlActionPanel\SceneControlModelSupportProperties.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SceneControlActionPanel\SceneControlModelSupportProperties.Designer.cs">
+      <DependentUpon>SceneControlModelSupportProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SceneControlActionPanel\SceneControlModelMagsAI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SceneControlActionPanel\SceneControlModelMagsAI.Designer.cs">
+      <DependentUpon>SceneControlModelMagsAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SceneControlActionPanel\SceneControlModelDuplicate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SceneControlActionPanel\SceneControlModelDuplicate.Designer.cs">
+      <DependentUpon>SceneControlModelDuplicate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SceneControlActionPanel\SceneControlModelSupportPropertiesHandle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SceneControlActionPanel\SceneControlModelSupportPropertiesHandle.Designer.cs">
+      <DependentUpon>SceneControlModelSupportPropertiesHandle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SceneControlToolbars\SceneControlPrintPreviewPropertiesToolbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SceneControlToolbars\SceneControlPrintPreviewPropertiesToolbar.Designer.cs">
+      <DependentUpon>SceneControlPrintPreviewPropertiesToolbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SceneControlToolbars\SceneControlPrintJobPropertiesToolbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SceneControlToolbars\SceneControlPrintJobPropertiesToolbar.Designer.cs">
+      <DependentUpon>SceneControlPrintJobPropertiesToolbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SceneControlToolbars\SceneControlCameraActionsToolbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SceneControlToolbars\SceneControlCameraActionsToolbar.Designer.cs">
+      <DependentUpon>SceneControlCameraActionsToolbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SceneControlToolbars\SceneControlRenderModeToolbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SceneControlToolbars\SceneControlRenderModeToolbar.Designer.cs">
+      <DependentUpon>SceneControlRenderModeToolbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SceneControlToolbars\SceneControlToolbarBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SceneControlToolbars\SceneControlToolbarBase.Designer.cs">
+      <DependentUpon>SceneControlToolbarBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SceneControlToolbars\SceneControlToolbars.cs" />
+    <Compile Include="Controls\SceneControlToolbars\SceneControlModelActionsToolbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SceneControlToolbars\SceneControlModelActionsToolbar.Designer.cs">
+      <DependentUpon>SceneControlModelActionsToolbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\OpenGL\Sdl2GLControl.cs" />
+    <Compile Include="Controls\OpenGL\WinGLControl.cs" />
+    <Compile Include="Controls\OpenGL\X11GLControl.cs" />
+    <Compile Include="Controls\PictureboxWithMagnifier.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\PictureboxWithMagnifier.Designer.cs">
+      <DependentUpon>PictureboxWithMagnifier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FloatTrackBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ImageCombo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\SceneControlActionPanel\SceneActionPanels.cs" />
+    <Compile Include="Controls\SceneControlActionPanel\SceneControlActionPanelBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SceneControlActionPanel\SceneControlActionPanelBase.Designer.cs">
+      <DependentUpon>SceneControlActionPanelBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SceneControlToolTips\SceneControlManualToolTip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SceneControlToolTips\SceneControlToolbarToolTipLeftSideEditable.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\SceneControlToolTips\SceneControlToolbarToolTipLeftSide.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\SceneControlToolTips\SceneControlToolbarToolTipRightSide.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\SceneControlToolTips\SceneControlToolbarToolTipBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\SoftwareUpdater\DownloadConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\SoftwareUpdater\DownloadConfirm.designer.cs">
+      <DependentUpon>DownloadConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SoftwareUpdater\DownloadProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\SoftwareUpdater\DownloadProgress.designer.cs">
+      <DependentUpon>DownloadProgress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SVGParser.cs" />
+    <Compile Include="Controls\ToggleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ToolstripItems\Trackbar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\TransparentPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\TransparentPanel.Designer.cs">
+      <DependentUpon>TransparentPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TriangleSelectionBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\TriangleSelectionBox.Designer.cs">
+      <DependentUpon>TriangleSelectionBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Core\Engines\MagsAI\MAGSAIDebugComment.cs" />
+    <Compile Include="Core\Engines\MagsAI\MagsAIEdgePoint.cs" />
+    <Compile Include="Core\Engines\MagsAI\MagsAIEdgePoints.cs" />
+    <Compile Include="Core\Engines\MagsAI\MagsAIEngine.cs" />
+    <Compile Include="Core\Engines\MagsAI\MagsAIIntersectionData.cs" />
+    <Compile Include="Core\Engines\MagsAI\MagsAIIntersectionPointWithFilter.cs" />
+    <Compile Include="Core\Engines\MagsAI\MagsAIPolygonLowestPoint.cs" />
+    <Compile Include="Core\Engines\MagsAI\MagsAIPolygonSupportPoint.cs" />
+    <Compile Include="Core\Engines\MagsAI\MagsAIPolyLines.cs" />
+    <Compile Include="Core\Engines\MagsAI\MagsAIPolyLine.cs" />
+    <Compile Include="Core\Engines\MagsAI\MagsAISupportCone.cs" />
+    <Compile Include="Core\Engines\MagsAI\MagsAISupportConeOutlinePoints.cs" />
+    <Compile Include="Core\Engines\MagsAI\MagsAISurfaceIntersectionData.cs" />
+    <Compile Include="Core\Engines\MagsAI\MagsAISurfacePolyLine.cs" />
+    <Compile Include="Core\Engines\MagsAI\MagsAISurfaceWithOverhangSupportCones.cs" />
+    <Compile Include="Core\Engines\PackingEngine\Container.cs" />
+    <Compile Include="Core\Engines\PackingEngine\IPackingStrategy.cs" />
+    <Compile Include="Core\Engines\PackingEngine\ModelFootprint.cs" />
+    <Compile Include="Core\Engines\PackingEngine\PackedItem.cs" />
+    <Compile Include="Core\Engines\PackingEngine\PackingEngine.cs" />
+    <Compile Include="Core\Engines\PackingEngine\PackingHelper.cs" />
+    <Compile Include="Core\Engines\PackingEngine\PackingSolution.cs" />
+    <Compile Include="Core\Engines\PackingEngine\PackingSolutions.cs" />
+    <Compile Include="Core\Engines\PackingEngine\PackModelsRequest.cs" />
+    <Compile Include="Core\Engines\PackingEngine\Rectangle.cs" />
+    <Compile Include="Core\Engines\PackingEngine\Shelf.cs" />
+    <Compile Include="Core\Engines\PackingEngine\ShelfPackLargestFirstPackingStrategy.cs" />
+    <Compile Include="Core\Events\CloneModelsEventArgs.cs" />
+    <Compile Include="Core\Events\MagsAIProgressEventArgs.cs" />
+    <Compile Include="Core\Events\OpenFileEventArgs.cs" />
+    <Compile Include="Core\Managers\CachedProfileManager.cs" />
+    <Compile Include="Core\Managers\DebugManager.cs" />
+    <Compile Include="Core\Managers\FeatureManager.cs" />
+    <Compile Include="Core\Managers\FontManager.cs" />
+    <Compile Include="Core\Managers\PrintJobManager.cs" />
+    <Compile Include="Core\Managers\ProgressbarManager.cs" />
+    <Compile Include="Core\Managers\RegistryManager.cs" />
+    <Compile Include="Core\Managers\SceneControlToolbarManager.cs" />
+    <Compile Include="Core\Managers\AutoSaveManager.cs" />
+    <Compile Include="Core\Managers\BrandingManager.cs" />
+    <Compile Include="Core\Colors\ColorProvider.cs" />
+    <Compile Include="Core\Drive\USBDrive.cs" />
+    <Compile Include="Core\Engines\MagsAI\MagsAIEngineFilters.cs" />
+    <Compile Include="Core\Engines\ExportEngine.cs" />
+    <Compile Include="Core\Engines\FontTessellationEngine.cs" />
+    <Compile Include="Core\Engines\ImportEngine.cs" />
+    <Compile Include="Core\Engines\SupportEngine.cs" />
+    <Compile Include="Core\Enums\Enums.cs" />
+    <Compile Include="Core\Events\MovementEventArgs.cs" />
+    <Compile Include="Core\Events\RenderEventArgs.cs" />
+    <Compile Include="Core\Events\RotationEventArgs.cs" />
+    <Compile Include="Core\Events\ScaleEventArgs.cs" />
+    <Compile Include="Core\Events\SelectionBoxSizeEventArgs.cs" />
+    <Compile Include="Core\Events\SelectionEventArgs.cs" />
+    <Compile Include="Core\Events\SupportEventArgs.cs" />
+    <Compile Include="Core\FontTessellation\P2T.cs" />
+    <Compile Include="Core\FontTessellation\Polygon\Polygon.cs" />
+    <Compile Include="Core\FontTessellation\Polygon\PolygonPoint.cs" />
+    <Compile Include="Core\FontTessellation\Polygon\PolygonSet.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\Delaunay\DelaunayTriangle.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\Delaunay\Sweep\AdvancingFront.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\Delaunay\Sweep\AdvancingFrontNode.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\Delaunay\Sweep\DTSweep.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\Delaunay\Sweep\DTSweepBasin.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\Delaunay\Sweep\DTSweepConstraint.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\Delaunay\Sweep\DTSweepContext.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\Delaunay\Sweep\DTSweepDebugContext.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\Delaunay\Sweep\DTSweepEdgeEvent.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\Delaunay\Sweep\DTSweepPointComparator.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\Delaunay\Sweep\PointOnEdgeException.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\ITriangulatable.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\Orientation.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\Sets\ConstrainedPointSet.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\Sets\PointSet.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\TriangulationAlgorithm.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\TriangulationConstraint.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\TriangulationContext.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\TriangulationDebugContext.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\TriangulationMode.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\TriangulationPoint.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\TriangulationUtil.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\Util\PointGenerator.cs" />
+    <Compile Include="Core\FontTessellation\Triangulation\Util\PolygonGenerator.cs" />
+    <Compile Include="Core\FontTessellation\Utility\FixedArray3.cs" />
+    <Compile Include="Core\FontTessellation\Utility\FixedBitArray3.cs" />
+    <Compile Include="Controls\PropertyGrid\PropertyGridFiltered.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\PropertyGrid\PropertyGridFiltered.Designer.cs">
+      <DependentUpon>PropertyGridFiltered.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PropertyGrid\PropertyGridObjectWrapper.cs" />
+    <Compile Include="Core\Helpers\AutoSupportHelpers.cs" />
+    <Compile Include="Core\Helpers\ContourHelper.cs" />
+    <Compile Include="Core\Helpers\MathHelper.cs" />
+    <Compile Include="Core\Helpers\MemoryHelpers.cs" />
+    <Compile Include="Core\Helpers\OpenTKHelper.cs" />
+    <Compile Include="Core\Helpers\RenderEngineHelper.cs" />
+    <Compile Include="Core\Helpers\STLModelHelper.cs" />
+    <Compile Include="Core\Helpers\StringHelper.cs" />
+    <Compile Include="Core\Helpers\ThreadHelper.cs" />
+    <Compile Include="Core\Helpers\TriangleHelper.cs" />
+    <Compile Include="Core\Helpers\VectorHelper.cs" />
+    <Compile Include="Core\Managers\ConnectivityManager.cs" />
+    <Compile Include="Core\Managers\DisplayManager.cs" />
+    <Compile Include="Core\Managers\DownloadManager.cs" />
+    <Compile Include="Core\Managers\MainFormManager.cs" />
+    <Compile Include="Core\Managers\LicenseClientManager.cs" />
+    <Compile Include="Core\Managers\MaterialManager.cs" />
+    <Compile Include="Core\Managers\PluginManager.cs" />
+    <Compile Include="Core\Managers\PerformanceSettingsManager.cs" />
+    <Compile Include="Core\Managers\SceneActionControlManager.cs" />
+    <Compile Include="Core\Managers\SoftwareUpdateManager.cs" />
+    <Compile Include="Core\Managers\ToolbarActionsManager.cs" />
+    <Compile Include="Core\Managers\TouchScreenManager.cs" />
+    <Compile Include="Core\Managers\UndoRedo\ListOperations.cs" />
+    <Compile Include="Core\Managers\UndoRedo\Models\ActionModel.cs" />
+    <Compile Include="Core\Managers\UndoRedo\Models\BaseModel.cs" />
+    <Compile Include="Core\Managers\UndoRedo\Models\ColorModel.cs" />
+    <Compile Include="Core\Managers\UndoRedo\Models\GridSupportCone.cs" />
+    <Compile Include="Core\Managers\UndoRedo\Models\GridSupportConePropertyChange.cs" />
+    <Compile Include="Core\Managers\UndoRedo\Models\ManualSupportConePropertyChange.cs" />
+    <Compile Include="Core\Managers\UndoRedo\Models\ManualSupportCone.cs" />
+    <Compile Include="Core\Managers\UndoRedo\Models\TranslateManualSupportCone.cs" />
+    <Compile Include="Core\Managers\UndoRedo\Models\SupportBasement.cs" />
+    <Compile Include="Core\Managers\UndoRedo\Models\TranslateModel.cs" />
+    <Compile Include="Core\Managers\UndoRedo\UndoRedoAction\IUndoRedoAction.cs" />
+    <Compile Include="Core\Managers\UndoRedo\UndoRedoAction\UndoRedoAction.cs" />
+    <Compile Include="Core\Managers\UndoRedo\UndoRedoManager.cs" />
+    <Compile Include="Core\Managers\UndoRedo\UndoTransaction.cs" />
+    <Compile Include="Core\Managers\UserProfileManager.cs" />
+    <Compile Include="Core\Materials\MaterialCatalogDownloadFile.cs" />
+    <Compile Include="Core\ModelCorrections\Trapezoid\Trapezoid.cs" />
+    <Compile Include="Core\Models\MAGSAIMarkSelectionGizmo.cs" />
+    <Compile Include="Core\Models\Cone.cs" />
+    <Compile Include="Core\Models\Defaults\BasicCorrectionModel.cs" />
+    <Compile Include="Core\Models\Defaults\LensWarpCorrectionModel.cs" />
+    <Compile Include="Core\Models\LinkedClone.cs" />
+    <Compile Include="Core\Models\Models3MF\Object3MF.cs" />
+    <Compile Include="Core\Models\SupportConeV2InterlinkConnection.cs" />
+    <Compile Include="Core\Models\SupportConeV2.cs" />
+    <Compile Include="Core\Models\SceneScaleGizmoCone.cs" />
+    <Compile Include="Core\Models\SceneScaleGizmo.cs" />
+    <Compile Include="Core\Models\SceneRotationGizmoAngle.cs" />
+    <Compile Include="Core\Models\SceneMoveTranslationGizmo.cs" />
+    <Compile Include="Core\Models\SceneMoveTranslationGizmoCone.cs" />
+    <Compile Include="Core\Models\SceneRotationGizmo.cs" />
+    <Compile Include="Core\Models\OrientationGizmo.cs" />
+    <Compile Include="Core\Models\OrientationGizmoFaceText.cs" />
+    <Compile Include="Core\Models\WorkspaceSTLModel.cs" />
+    <Compile Include="Core\Engines\RenderEngine.cs" />
+    <Compile Include="Core\Models\STLModel3D.cs" />
+    <Compile Include="Core\ModelView\CameraController.cs" />
+    <Compile Include="Core\ModelView\ObjectView.cs" />
+    <Compile Include="Core\ModelView\SceneView.cs" />
+    <Compile Include="Core\Objects\SliceContourInfo.cs" />
+    <Compile Include="Core\PInvoke\NATIVE.cs" />
+    <Compile Include="Core\Plugins\IPlugin.cs" />
+    <Compile Include="Core\Network\BroadcastManager.cs" />
+    <Compile Include="Core\Platform\DisplaySettings.cs" />
+    <Compile Include="Core\Platform\PerformanceSettings.cs" />
+    <Compile Include="Core\Managers\PrinterManager.cs" />
+    <Compile Include="Core\Plugins\PluginTypes.cs" />
+    <Compile Include="Core\Plugins\AdvancedPostSlicer.cs" />
+    <Compile Include="Core\Shapes\Box.cs" />
+    <Compile Include="Core\Shapes\Chunk.cs" />
+    <Compile Include="Core\Shapes\Cone.cs" />
+    <Compile Include="Core\Shapes\ConnectedIndexItem.cs" />
+    <Compile Include="Core\Shapes\Cube.cs" />
+    <Compile Include="Core\Shapes\Custom\AtumBox.cs" />
+    <Compile Include="Core\Shapes\DrawableShapeInfo.cs" />
+    <Compile Include="Core\Shapes\GroundPane.cs" />
+    <Compile Include="Core\Shapes\Line3D.cs" />
+    <Compile Include="Core\Shapes\ModelBrowser.cs" />
+    <Compile Include="Core\Shapes\OuterPathSlice.cs" />
+    <Compile Include="Core\Shapes\OuterPathNormal.cs" />
+    <Compile Include="Core\Shapes\PolylineWithNormal.cs" />
+    <Compile Include="Core\Shapes\SlicedHose.cs" />
+    <Compile Include="Core\Shapes\Sphere.cs" />
+    <Compile Include="Core\Shapes\SliceLine2D.cs" />
+    <Compile Include="Core\Shapes\SliceLine3D.cs" />
+    <Compile Include="Core\Shapes\SlicePoint2D.cs" />
+    <Compile Include="Core\Shapes\SlicePolyLine3D.cs" />
+    <Compile Include="Core\Models\SupportCone.cs" />
+    <Compile Include="Core\Shapes\Torus.cs" />
+    <Compile Include="Core\Shapes\TriangeConnectionsIndexed.cs" />
+    <Compile Include="Core\Shapes\Triangle.cs" />
+    <Compile Include="Core\Shapes\Triangle3D.cs" />
+    <Compile Include="Core\Shapes\TriangleConnectionSelections.cs" />
+    <Compile Include="Core\Shapes\TriangleIntersection.cs" />
+    <Compile Include="Core\Slices\Slice.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\SoftwareUpdater\AutoUpdater.cs" />
+    <Compile Include="Core\SoftwareUpdater\DownloadFileInfo.cs" />
+    <Compile Include="Core\SoftwareUpdater\LocalFile.cs" />
+    <Compile Include="Core\SoftwareUpdater\VersionUpdate.cs" />
+    <Compile Include="Core\Structs\Structs.cs" />
+    <Compile Include="Core\Taskbar\TaskbarAPI.cs" />
+    <Compile Include="Core\Utils\IntersectionProvider.cs" />
+    <Compile Include="Core\Utils\ISectData.cs" />
+    <Compile Include="Core\Utils\Toolbox.cs" />
+    <Compile Include="frmPrintPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintPreview.Designer.cs">
+      <DependentUpon>frmPrintPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTest.Designer.cs">
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="frmStudioMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStudioMain.Designer.cs">
+      <DependentUpon>frmStudioMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\SVGImages.Designer.cs" />
+    <EmbeddedResource Include="Branding_Loctite.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Branding_Loctite.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Branding_Atum3D.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Branding_Atum3D.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BasePopupNoTitle.resx">
+      <DependentUpon>BasePopupNoTitle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BasePopup.resx">
+      <DependentUpon>BasePopup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CircularProgressBar\CircularProgressBar.resx">
+      <DependentUpon>CircularProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\CircularProgressBar\CircularProgressLabel.resx">
+      <DependentUpon>CircularProgressLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\FloatInputField14.resx">
+      <DependentUpon>FloatInputField14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\FloatInputField14MM.resx">
+      <DependentUpon>FloatInputField14MM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\FloatInputField18MM.resx">
+      <DependentUpon>FloatInputField18MM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\frmMessageBox.resx">
+      <DependentUpon>frmMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\MaterialCatalogManager\MaterialEditorManufacturer.resx">
+      <DependentUpon>MaterialEditorManufacturer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\ContextMenu\ContextMenuItem.resx">
+      <DependentUpon>ContextMenuItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\ContextMenu\SupportConeContextMenuStripControl.resx">
+      <DependentUpon>SupportConeContextMenuStripControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\ContextMenu\ModelContextMenuStripControl.resx">
+      <DependentUpon>ModelContextMenuStripControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\ExportControl\ExportUserControl.resx">
+      <DependentUpon>ExportUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\MaterialCatalogManager\frmMaterialCatalogManager.resx">
+      <DependentUpon>frmMaterialCatalogManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\MaterialCatalogManager\MaterialEditorMaterial.resx">
+      <DependentUpon>MaterialEditorMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\SceneControlProgressbar.resx">
+      <DependentUpon>SceneControlProgressbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\frmUSBDriveSelector.resx">
+      <DependentUpon>frmUSBDriveSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\GenericEditableLabel18.resx">
+      <DependentUpon>GenericEditableLabel18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\MainMenu\MainMenuStrip.resx">
+      <DependentUpon>MainMenuStrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\MainMenu\MenuItemControl.resx">
+      <DependentUpon>MenuItemControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\MaterialCatalogus\displayMaterial.resx">
+      <DependentUpon>displayMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\MaterialCatalogus\frmMaterialOnlineCatalog.resx">
+      <DependentUpon>frmMaterialOnlineCatalog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\MaterialEditor\frmMaterialEditor.resx">
+      <DependentUpon>frmMaterialEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\MaterialEditor\MaterialMenuStrip.resx">
+      <DependentUpon>MaterialMenuStrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\MaterialEditor\MaterialSummary.resx">
+      <DependentUpon>MaterialSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\MaterialEditor\MaterialValueEditor.resx">
+      <DependentUpon>MaterialValueEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\NewGUIContentSplitContainerBase.resx">
+      <DependentUpon>NewGUIContentSplitContainerBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\NewGUIFormBase.resx">
+      <DependentUpon>NewGUIFormBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\NewGUIInputBox.resx">
+      <DependentUpon>NewGUIInputBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\NewGUIInputBoxReadonly.resx">
+      <DependentUpon>NewGUIInputBoxReadonly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\NewGUIPanel.resx">
+      <DependentUpon>NewGUIPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\NewGUITextboxPanel.resx">
+      <DependentUpon>NewGUITextboxPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\UserPreferences\frmPreference.resx">
+      <DependentUpon>frmPreference.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\PrinterEditorSettings\CalibratePrinter\frmCalibratePrinter.resx">
+      <DependentUpon>frmCalibratePrinter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\PrinterEditorSettings\CalibratePrinter\frmCalibrationComplete.resx">
+      <DependentUpon>frmCalibrationComplete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\PrinterEditorSettings\CalibratePrinter\TrapeziumInputArrowBelow.resx">
+      <DependentUpon>TrapeziumInputArrowBelow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\PrinterEditorSettings\CalibratePrinter\TrapeziumInputArrowAbove.resx">
+      <DependentUpon>TrapeziumInputArrowAbove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\PrinterEditorSettings\frmPrinterEditor.resx">
+      <DependentUpon>frmPrinterEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\PrinterEditorSettings\PrinterMenuStrip.resx">
+      <DependentUpon>PrinterMenuStrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\PrinterEditorSettings\PrinterAddControl.resx">
+      <DependentUpon>PrinterAddControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\PrinterEditorSettings\PrinterSummaryControl.resx">
+      <DependentUpon>PrinterSummaryControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\PrinterEditorSettings\PrinterValueEditorControl.resx">
+      <DependentUpon>PrinterValueEditorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\RoundedRightButton.resx">
+      <DependentUpon>RoundedRightButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\RoundedLeftButton.resx">
+      <DependentUpon>RoundedLeftButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\RoundedButton.resx">
+      <DependentUpon>RoundedButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\SplashControl\SplashControl.resx">
+      <DependentUpon>SplashControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\SplashControl\SplashFrm.resx">
+      <DependentUpon>SplashFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\SplashControl\UnlicensedControl\LicensedProgramControl.resx">
+      <DependentUpon>LicensedProgramControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\SplashControl\UnlicensedControl\RecentFilesControl.resx">
+      <DependentUpon>RecentFilesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\SplashControl\UnlicensedControl\RecentOpenFileControl.resx">
+      <DependentUpon>RecentOpenFileControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\SplashControl\UnlicensedControl\UnlicensedProgramControl.resx">
+      <DependentUpon>UnlicensedProgramControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\SupportContact\ContactControl.resx">
+      <DependentUpon>ContactControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\SupportContact\frmContact.resx">
+      <DependentUpon>frmContact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\SupportContact\OperatorStationOnlineManual.resx">
+      <DependentUpon>OperatorStationOnlineManual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\SupportContact\SubmitBugFeaturerequest.resx">
+      <DependentUpon>SubmitBugFeatureRequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewGui\USBDriveSummary.resx">
+      <DependentUpon>USBDriveSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\OpenGL\GLControl.resx">
+      <DependentUpon>GLControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\OpenGL\SceneControl.resx">
+      <DependentUpon>SceneControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SceneControlActionPanel\DuplicateModelControl.resx">
+      <DependentUpon>DuplicateModelControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SceneControlActionPanel\SceneControlActionSubPanelBase.resx">
+      <DependentUpon>SceneControlActionSubPanelBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SceneControlActionPanel\SceneControlModelRotate.resx">
+      <DependentUpon>SceneControlModelRotate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SceneControlActionPanel\SceneControlModelMove.resx">
+      <DependentUpon>SceneControlModelMove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SceneControlActionPanel\SceneControlModelScale.resx">
+      <DependentUpon>SceneControlModelScale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SceneControlActionPanel\SceneControlModelSupportProperties.resx">
+      <DependentUpon>SceneControlModelSupportProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SceneControlActionPanel\SceneControlModelMagsAI.resx">
+      <DependentUpon>SceneControlModelMagsAI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SceneControlActionPanel\SceneControlModelDuplicate.resx">
+      <DependentUpon>SceneControlModelDuplicate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SceneControlActionPanel\SceneControlModelSupportPropertiesHandle.resx">
+      <DependentUpon>SceneControlModelSupportPropertiesHandle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SceneControlToolbars\SceneControlPrintPreviewPropertiesToolbar.resx">
+      <DependentUpon>SceneControlPrintPreviewPropertiesToolbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SceneControlToolbars\SceneControlPrintJobPropertiesToolbar.resx">
+      <DependentUpon>SceneControlPrintJobPropertiesToolbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SceneControlToolbars\SceneControlCameraActionsToolbar.resx">
+      <DependentUpon>SceneControlCameraActionsToolbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SceneControlToolbars\SceneControlRenderModeToolbar.resx">
+      <DependentUpon>SceneControlRenderModeToolbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SceneControlToolbars\SceneControlToolbarBase.resx">
+      <DependentUpon>SceneControlToolbarBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SceneControlToolbars\SceneControlModelActionsToolbar.resx">
+      <DependentUpon>SceneControlModelActionsToolbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SceneControlActionPanel\SceneControlActionPanelBase.resx">
+      <DependentUpon>SceneControlActionPanelBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SceneControlToolTips\SceneControlManualToolTip.resx">
+      <DependentUpon>SceneControlManualToolTip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SoftwareUpdater\DownloadConfirm.resx">
+      <DependentUpon>DownloadConfirm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SoftwareUpdater\DownloadProgress.resx">
+      <DependentUpon>DownloadProgress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintPreview.resx">
+      <DependentUpon>frmPrintPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStudioMain.resx">
+      <DependentUpon>frmStudioMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTest.resx">
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\SVGImages.resx" />
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+    <None Include="Atum3d_code-2017-2020.pfx" />
+    <None Include="bin\Debug\PrintJobs\NO_NAME\trapezium_slices.zip" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\Atum.DAL.Hardware.AtumV2Printer.datasource" />
+    <None Include="Properties\DataSources\Atum.DAL.Materials.Material.datasource" />
+    <None Include="Properties\DataSources\Atum.DAL.Materials.MaterialsBySupplier.datasource" />
+    <None Include="Properties\DataSources\Atum.DAL.Materials.MaterialsCatalog.datasource" />
+    <None Include="Properties\DataSources\Atum.Studio.Core.ModelCorrections.LensWarpCorrection.LensWarpCorrectionItems.datasource" />
+    <None Include="Properties\DataSources\DAL.Logging.LoggingInfo.datasource" />
+    <None Include="Properties\DataSources\OpenTK.Test.Core.Materials.MaterialsCatalog.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Montserrat-Bold.ttf" />
+    <None Include="Resources\Montserrat-Regular.ttf" />
+    <None Include="Resources\MontserratAlternates-Bold.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnNext_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnPrevious_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnRadius_24x241.png" />
+    <None Include="Resources\btnRadius_24x242.png" />
+    <None Include="Resources\btnRadius_24x243.png" />
+    <None Include="Resources\btnHeight_24x241.png" />
+    <None Include="Resources\btnRadius_24x24.png" />
+    <None Include="Resources\btnHeight_24x24.png" />
+    <None Include="Resources\btnRadius_24x244.png" />
+    <None Include="Resources\3D-Materials.xml" />
+    <Content Include="Resources\combined-shape.svg" />
+    <Content Include="Resources\contact-white.svg" />
+    <Content Include="Resources\corner.svg" />
+    <Content Include="Resources\cross-black.svg" />
+    <Content Include="Resources\cross-white.svg" />
+    <Content Include="Resources\duplicate-black.svg" />
+    <Content Include="Resources\folder-white.svg" />
+    <Content Include="Resources\front.svg" />
+    <Content Include="Resources\grid-hide.svg" />
+    <Content Include="Resources\grid-solid.svg" />
+    <Content Include="Resources\help-white.svg" />
+    <None Include="Resources\link-black.svg" />
+    <None Include="Resources\link-broken-black.svg" />
+    <Content Include="Resources\minus-black.svg" />
+    <Content Include="Resources\model-hide.svg" />
+    <Content Include="Resources\model-solid.svg" />
+    <Content Include="Resources\model-wireframe.svg" />
+    <Content Include="Resources\move-black.svg" />
+    <Content Include="Resources\orbit-white-unselected.svg" />
+    <Content Include="Resources\pan-white-unselected.svg" />
+    <Content Include="Resources\plus-black.svg" />
+    <Content Include="Resources\plus-white.svg" />
+    <Content Include="Resources\rotate-black.svg" />
+    <None Include="Resources\scalepanel-black-8.svg" />
+    <None Include="Resources\save_icon.gif" />
+    <Content Include="Resources\settings-white.svg" />
+    <Content Include="Resources\support-black.svg" />
+    <Content Include="Resources\support-grid-black.svg" />
+    <Content Include="Resources\support-hide.svg" />
+    <None Include="Resources\support-properties.svg" />
+    <None Include="Resources\support-properties-no-infill.svg" />
+    <None Include="Resources\support-properties-orange.svg" />
+    <Content Include="Resources\support-single-black.svg" />
+    <Content Include="Resources\support-solid.svg" />
+    <Content Include="Resources\support-wireframes.svg" />
+    <Content Include="Resources\tick.svg" />
+    <None Include="Resources\toolbar_actions_model_arrowleft.png" />
+    <None Include="Resources\toolbar_actions_model_arrowright.png" />
+    <None Include="Resources\toolbar_combobo_left.png" />
+    <None Include="Resources\toolbar_combobo_right.png" />
+    <Content Include="Resources\warning.svg" />
+    <Content Include="Resources\zoom-white-unselected.svg" />
+    <None Include="Resources\btn_StartMainForm_24.png" />
+    <None Include="atum3D-transparant.ico" />
+    <Content Include="atum3D.exe.ico" />
+    <Content Include="atum3d.ico" />
+    <None Include="Resources\atum3D-transparant.ico" />
+    <None Include="Resources\btnSupport_ClearAll.png" />
+    <None Include="Resources\checkbox_not_checked.png" />
+    <None Include="Resources\LaunchScreenLogo_1X1.png" />
+    <None Include="Resources\Loctite_SplashScreen.png" />
+    <None Include="Resources\printer_calibration2.png" />
+    <None Include="Resources\printer_calibration_henkel.png" />
+    <None Include="Resources\checkbox_checked_atum3D.png" />
+    <None Include="Resources\checkbox_checked_Henkel.png" />
+    <None Include="bin\Debug\checkbox_not_checked.png" />
+    <None Include="bin\Debug\checkbox_checked.png" />
+    <Content Include="FodyWeavers.xml" />
+    <Content Include="icon.ico" />
+    <Content Include="OpenTK.dll" />
+    <None Include="Resources\toolbar_actions_model_gridsupport_white.png" />
+    <None Include="Resources\toolbar_actions_model_singlesuppor_white.png" />
+    <None Include="Resources\slider-arrow-down.png" />
+    <None Include="Resources\slider-arrow-up.png" />
+    <None Include="Resources\printer_calibration.png" />
+    <None Include="Resources\printer_calibration1.png" />
+    <None Include="Resources\printer_calibration-input_arrow_up.png" />
+    <None Include="Resources\printer_calibration-input_arrow.png" />
+    <None Include="Resources\combined-shape.png" />
+    <None Include="Resources\button_settings_white.png" />
+    <None Include="Resources\button_help_white_large.png" />
+    <None Include="Resources\button_help_white.png" />
+    <None Include="Resources\button_add_white_large.png" />
+    <None Include="Resources\button_folder_white.png" />
+    <None Include="Resources\warning.png" />
+    <None Include="Resources\tick.png" />
+    <None Include="Resources\plus-white.png" />
+    <None Include="Resources\models.png" />
+    <None Include="Resources\LaunchScreenLogo_1X.png" />
+    <None Include="Resources\help-white.png" />
+    <None Include="Resources\add-white%402x.png" />
+    <None Include="Resources\add-white.png" />
+    <None Include="Resources\ContactLogo_1x.png" />
+    <None Include="Resources\contact-white.png" />
+    <None Include="Resources\button_40x40_remove.png" />
+    <None Include="Resources\button_40x40_add.png" />
+    <None Include="Resources\toolbar_actions_model_arrowup.png" />
+    <None Include="Resources\toolbar_actions_model_singlesupport.png" />
+    <None Include="Resources\toolbar_actions_model_arrowdown.png" />
+    <None Include="Resources\toolbar_actions_model_gridsupport.png" />
+    <None Include="Resources\toolbar_model_action_gridsupport.png" />
+    <None Include="Resources\toolbar_model_actions_arrowdown.png" />
+    <None Include="Resources\toolbar_combobo_down.png" />
+    <None Include="Resources\button_cross_black.png" />
+    <None Include="Resources\button_cross_white.png" />
+    <None Include="Resources\button_cross.png" />
+    <None Include="Resources\button_minus.png" />
+    <None Include="Resources\button_plus.png" />
+    <None Include="Resources\toolbar_actions_model_duplicate.png" />
+    <None Include="Resources\toolbar_camera_action_pan.png" />
+    <None Include="Resources\toolbar_camera_action_orbit.png" />
+    <None Include="Resources\toolbar_camera_action_zoom.png" />
+    <None Include="Resources\toolbar_render_groundpane_hide.png" />
+    <None Include="Resources\toolbar_render_support_hide.png" />
+    <None Include="Resources\toolbar_render_support_wireframe.png" />
+    <None Include="Resources\toolbar_render_model_wireframe.png" />
+    <None Include="Resources\toolbar_render_model_hide.png" />
+    <None Include="Resources\toolbar_render_support_solid.png" />
+    <None Include="Resources\toolbar_actions_model_rotate.png" />
+    <None Include="Resources\toolbar_actions_model_move.png" />
+    <None Include="Resources\toolbar_action_duplicate.png" />
+    <None Include="Resources\toolbar_actions_model_support.png" />
+    <None Include="Resources\toolbar_render_groundpane_solid.png" />
+    <None Include="Resources\toolbar_render_model_solid.png" />
+    <None Include="Resources\screenshot-512.png" />
+    <None Include="Resources\btnMAGSAI_Selection_Round.png" />
+    <None Include="Resources\btnMAGSAI_Selection_Sqaure1.png" />
+    <None Include="Resources\btnMAGSAI_Selection_Sqaure.png" />
+    <None Include="Resources\Henkel.xml" />
+    <None Include="Resources\Scene_Banner.png" />
+    <None Include="Resources\LOCTITE_logo1.jpg" />
+    <None Include="Resources\LOCTITE_logo.jpg" />
+    <None Include="Resources\About_Logo_Loctite.png" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\loctite.ico" />
+    <None Include="Resources\btnSelectionBoxSize_Large.png" />
+    <None Include="Resources\btnSelectionBoxSize_Small.png" />
+    <None Include="Resources\orbit_24x24.png" />
+    <None Include="Resources\pan_64x64.png" />
+    <None Include="Resources\atum3D.exe.ico" />
+    <None Include="Resources\ok.png" />
+    <None Include="Resources\Atum3D.ico" />
+    <None Include="Resources\Controls_BasicCorrection_Preview.png" />
+    <None Include="Resources\Atum.Studio.Update.exe" />
+    <None Include="bin\Debug\Update\Atum.Studio.Update.exe" />
+    <None Include="Resources\Add.png" />
+    <None Include="Resources\SetAsDefault.png" />
+    <None Include="bin\Debug\Materials\MakerJuice.xml" />
+    <None Include="Resources\Atum.DAL.dll" />
+    <None Include="bin\Debug\Atum.DAL.dll" />
+    <None Include="bin\Release\OpenTK.dll" />
+    <None Include="Resources\Atum.PrinterClient.exe" />
+    <None Include="Resources\pointer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Atum.DAL\Atum.DAL.csproj">
+      <Project>{b56397aa-413c-42c3-a8ee-c2751dff3410}</Project>
+      <Name>Atum.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>rem copy D:\Coding\Atum\Vs2013\MaterialCatalog\*.* $(ProjectDir)Resources\ /y</PreBuildEvent>
+  </PropertyGroup>
+  <Import Project="..\packages\Fody.3.2.0\build\Fody.targets" Condition="Exists('..\packages\Fody.3.2.0\build\Fody.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Fody.3.2.0\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.3.2.0\build\Fody.targets'))" />
+    <Error Condition="!Exists('..\packages\Costura.Fody.3.1.0\build\Costura.Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Costura.Fody.3.1.0\build\Costura.Fody.targets'))" />
+  </Target>
+  <Import Project="..\packages\Costura.Fody.3.1.0\build\Costura.Fody.targets" Condition="Exists('..\packages\Costura.Fody.3.1.0\build\Costura.Fody.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

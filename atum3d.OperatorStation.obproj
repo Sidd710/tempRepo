@@ -1,0 +1,142 @@
+<Project ProjectFileVersion="4" UseRelativePaths="True" CheckVersionsWhileResolvingAssemblies="True" DisabledFromMSBuild="False" ID="{4afc020a-9d4e-44cf-aaeb-3b145cf942bd}">
+  <SearchDirectories />
+  <OutputSettings OutputPath=".\Atum.Studio\bin\Release\Crypted" MainAssemblyPath="" RunAssemblyPath="Atum.Studio" SNPath="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\sn.exe" SignToolPath="C:\Program Files (x86)\Windows Kits\8.1\bin\x86\signtool.exe" LicensingDLLPath="" OverwriteInputFiles="False" BuildID="" MapFilesLocation="" FullParamNamesInMappingFile="False">
+    <AdditionalAssemblies />
+  </OutputSettings>
+  <ExceptionReporting ExceptionReportingServiceURL="" TryToContinueOnException="True" LocalReportPath=".\atum3d.OperatorStation_ExceptionReports" ApplicationName="" CompanyName="" ShowUI="True" EnableSaveToFileButton="True" EnableSendReportButton="True" DeleteDownloadedReportsFromServer="True" />
+  <ObfuscationSettings RenamingScheme="0" UseOverloadedFieldNames="False" UseOverloadedMethodNames="False" HonorObfuscationAttributes="True" ExcludeSerializedTypes="True" ProcessInlineStrings="True" ForceXAMLProcessingModeExclude="False" ForceRenameParams="False" SymbolPrefix="" SymbolSuffix="" FakeFields="" FakeTypes="" FakeMethods="" EncryptionActive="True" CompressionActive="True" RemoveAccessedThroughPropertyAttribute="False" UseSaltForCryptographicRenaming="False" />
+  <ObfuscationRules />
+  <InclusionExclusionRules>
+    <Entity FullName="Atum.DAL:Atum.DAL.Catalogs">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="Atum.DAL:Atum.DAL.ApplicationSettings">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="Atum.DAL:Atum.DAL.Hardware">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="Atum.DAL:Atum.DAL.Materials">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.DAL]Atum.DAL.Network.NetworkConnection">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.DAL]Atum.DAL.Network.NetworkConnections">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="Atum.DAL:Atum.DAL.Print">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Models.STLModel3D">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Models.SupportCone">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="Atum.Studio:Atum.Studio.Core.Models">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Models.WorkspaceSTLModel">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Models.WorkspaceSTLModelSupport">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="Atum.Studio:Atum.Studio.Core.Shapes">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.Box">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.ChamferCube">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.Chunk">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.Cone">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.ConnectedIndexItemList">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.ConnectedIndexValueItem">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.Cube">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.DrawableShapeInfo">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.GroundPane">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.ModelBrowserInfo">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.SlicedHose">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.SlicedSphere">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.SliceLine2D">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.SliceLine3D">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.SlicePoint2D">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.SlicePolyLine3D">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.Triangle3D">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.Triangle">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.TriangleConnectionInfo">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.TriangleConnectionInfoList">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.TriangleInfoList">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.TriangleSurfaceIndexInfo">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.TriangleSurfaceInfo">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Shapes.TriangleSurfaceInfoList">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="[Atum.Studio]Atum.Studio.Core.Managers.UserProfileInfo">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+    <Entity FullName="OpenTK">
+      <Rule Targets="4095" Exclude="True" Features="1" Enabled="True" PatternTarget="0" PatternMatchesExactTypeOnly="True" Pattern2Target="0" Pattern2MatchesExactTypeOnly="False" />
+    </Entity>
+  </InclusionExclusionRules>
+  <Assembly Load="true" Path=".\Atum.Studio\bin\Release\Atum.DAL.dll" XapEntryName="" KeyFilePath="" KeyFileContainsPublicKeyOnly="False" CertFilePath="" TimeStampURL="http://timestamp.digicert.com" Rfc3161TimestampURL="False" SHA256SigningAlgorithm="False" Embed="True" AddExceptionReporting="False" PfxPassword="QQB0AHUAbQBAAFcAMAByAGsA" PfxPasswordCert="QQB0AHUAbQBAAFcAMAByAGsA" IsWinRTAssembly="False">
+    <ObfuscationSettings EncryptStrings="True" EncryptMethods="True" EncryptConstants="True" SuppressReflector="False" ReduceMetaData="False" ObfuscationDisposition="1" FlowObfuscation="2" CodeMasking="0" SuppressILDASM="True" SuppressReflection="False" CombineResources="True" EncryptResources="True" CompressResources="True" MarkAsSealed="False" EnableTamperDetection="False" EnableAntiDebugging="True" SymbolRenaming="True" HideExternalCalls="False" HideInternalCalls="False" GeneratePdbFile="True" ObfuscatePdbFileNames="True" IncludeLocalVariablesInPdbFile="False" Encrypt="False" Compress="False" MSBuild="False" ObfuscatedNamespace="A" RetainNamespace="False" ModuleInitializationMethod="" LicensingMerge="False" RemoveConstants="False" ProcessSatelliteAssemblies="True">
+      <Watermarks Watermark0="" Watermark1="" Watermark2="" Watermark3="" Watermark4="" Watermark5="" Watermark6="" Watermark7="" Watermark8="" Watermark9="" />
+    </ObfuscationSettings>
+  </Assembly>
+  <Assembly Load="true" Path=".\Atum.Studio\bin\Release\Atum.Studio.exe" XapEntryName="" KeyFilePath="" KeyFileContainsPublicKeyOnly="False" CertFilePath="" TimeStampURL="http://timestamp.digicert.com" Rfc3161TimestampURL="False" SHA256SigningAlgorithm="False" Embed="True" AddExceptionReporting="False" PfxPassword="QQB0AHUAbQBAAFcAMAByAGsA" PfxPasswordCert="QQB0AHUAbQBAAFcAMAByAGsA" IsWinRTAssembly="False">
+    <ObfuscationSettings EncryptStrings="True" EncryptMethods="True" EncryptConstants="True" SuppressReflector="False" ReduceMetaData="False" ObfuscationDisposition="1" FlowObfuscation="2" CodeMasking="0" SuppressILDASM="True" SuppressReflection="False" CombineResources="True" EncryptResources="True" CompressResources="True" MarkAsSealed="False" EnableTamperDetection="False" EnableAntiDebugging="True" SymbolRenaming="True" HideExternalCalls="False" HideInternalCalls="False" GeneratePdbFile="True" ObfuscatePdbFileNames="True" IncludeLocalVariablesInPdbFile="False" Encrypt="False" Compress="False" MSBuild="False" ObfuscatedNamespace="A" RetainNamespace="False" ModuleInitializationMethod="" LicensingMerge="False" RemoveConstants="False" ProcessSatelliteAssemblies="True">
+      <Watermarks Watermark0="" Watermark1="" Watermark2="" Watermark3="" Watermark4="" Watermark5="" Watermark6="" Watermark7="" Watermark8="" Watermark9="" />
+    </ObfuscationSettings>
+  </Assembly>
+  <WarningSuppressions />
+  <Warnings SaveWarningsToFile="" FailOnUnsuppressedWarning="False" SaveSuppressedWarnings="True" SaveUnsuppressedWarnings="True" />
+  <Filters />
+</Project>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Atum.Studio.Core.Engines.PackingEngine.PackingEngine">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAEAQQAAAAAA=</HashCode>
+      <FileName>Core\Engines\PackingEngine\PackingEngine.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="PackingStrategies" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Atum.Studio.Core.Engines.PackingEngine.PackingSolutions">
+    <Position X="0.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Core\Engines\PackingEngine\PackingSolutions.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Solutions" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Atum.Studio.Core.Engines.PackingEngine.PackingSolution">
+    <Position X="4.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAABAAAAAEAAAAAAAAAAAAAAQAAAAEAAAAAAAA=</HashCode>
+      <FileName>Core\Engines\PackingEngine\PackingSolution.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="PackedItems" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Atum.Studio.Core.Engines.PackingEngine.PackedItem">
+    <Position X="7.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAABgCAAAAAAAAAAAAAwAAAAAAAAACAAA=</HashCode>
+      <FileName>Core\Engines\PackingEngine\PackedItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Atum.Studio.Core.Engines.PackingEngine.IPackingStrategy">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Engines\PackingEngine\IPackingStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

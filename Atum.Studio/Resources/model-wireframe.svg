@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <g fill="none" fill-rule="evenodd" stroke="#FF1800">
+        <path d="M15 3l10.392 6v12L15 27 4.608 21V9z"/>
+        <path d="M4.5 9L15 15l10.5-6M15 15v12"/>
+        <path stroke-dasharray="2,2" d="M15 3v12M5 21l10-6M25 21l-10-6"/>
+    </g>
+</svg>

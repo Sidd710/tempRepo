@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="64" viewBox="0 0 60 64">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#394045" d="M26.5 2h7l18.953 10.83 2.157 3.955L34.984 28h-9.968L5.39 16.785l2.157-3.955L26.5 2zM4.432 18.541l19.576 11.187L29 38.286v20.143l-5 2.142-19.407-11.09L2 43V23l2.432-4.459zm51.136 0L58 23v20l-2.593 6.481L36 60.571l-5-2.142V38.286l4.992-8.558L55.568 18.54z"/>
+        <g fill="#CCCCCD" font-family="Montserrat-Regular, Montserrat" font-size="18">
+            <text transform="translate(10 5)">
+                <tspan x="15" y="17">T</tspan>
+            </text>
+            <text transform="translate(10 5)">
+                <tspan x="30" y="41">F</tspan>
+            </text>
+            <text transform="translate(10 5)">
+                <tspan x="0" y="41">L</tspan>
+            </text>
+        </g>
+        <path fill="#FF1800" d="M5.39 16.785L30 30.848l24.61-14.063.958 1.756L31 32.581v25.848L30 58l-1 .429V32.58L4.432 18.541l.958-1.756zM29 64h2-2z"/>
+        <path fill="#FF1800" d="M23 28h14l-7 12z"/>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>70F5004E-B40C-4C7A-9D44-406DCCD9573B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="6" y="6" width="28" height="28"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="28" height="28" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Glyph_40/scalepanel-black-8">
+            <use id="Rectangle" stroke="#424242" mask="url(#mask-2)" stroke-width="4" stroke-dasharray="2,2" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <rect id="Rectangle-12" fill="#424242" x="6" y="26" width="8" height="8"></rect>
+            <path d="M22.4290457,16.0918166 L18.6777481,16.0918166 L18.6777481,14 L25.9991063,14 L25.9991063,21.3213581 L23.9072897,21.3213581 L23.9072897,17.571848 L15.4791377,26 L14,24.5208623 L22.4290457,16.0918166 Z" id="Combined-Shape" fill="#424242" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

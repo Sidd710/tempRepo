@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>68AAC3DA-A1D4-4576-8D96-712E42DB46D8</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Glyph_40/link-broken-black" fill="#424242" fill-rule="nonzero">
+            <g id="Group" transform="translate(2.000000, 2.000000)">
+                <path d="M11,16 L9,16 L9,9 C9,4.02943725 13.0294373,8.8817842e-16 18,0 C22.9705627,-8.8817842e-16 27,4.02943725 27,9 L27,16 L25,16 L25,9 C25,5.13400675 21.8659932,2 18,2 C14.1340068,2 11,5.13400675 11,9 L11,16 Z" id="Combined-Shape"></path>
+                <path d="M11,36 L9,36 L9,29 C9,24.0294373 13.0294373,20 18,20 C22.9705627,20 27,24.0294373 27,29 L27,36 L25,36 L25,29 C25,25.1340068 21.8659932,22 18,22 C14.1340068,22 11,25.1340068 11,29 L11,36 Z" id="Combined-Shape" transform="translate(18.000000, 28.000000) rotate(-180.000000) translate(-18.000000, -28.000000) "></path>
+                <polygon id="Path-8" transform="translate(3.000000, 23.000000) scale(-1, -1) translate(-3.000000, -23.000000) " points="1.29537213 26 0 24.7046279 4.70462787 20 6 21.2953721"></polygon>
+                <polygon id="Path-8" transform="translate(33.000000, 23.000000) scale(1, -1) translate(-33.000000, -23.000000) " points="31.2953721 26 30 24.7046279 34.7046279 20 36 21.2953721"></polygon>
+                <polygon id="Path-8" transform="translate(3.000000, 13.000000) scale(-1, 1) translate(-3.000000, -13.000000) " points="1.29537213 16 0 14.7046279 4.70462787 10 6 11.2953721"></polygon>
+                <polygon id="Path-8" points="31.2953721 16 30 14.7046279 34.7046279 10 36 11.2953721"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

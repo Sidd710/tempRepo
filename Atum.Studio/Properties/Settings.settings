@@ -1,0 +1,62 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Atum.Studio.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SlicerNormalColor" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="FaceFacingDown" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">Orange</Value>
+    </Setting>
+    <Setting Name="SlicerBackgroundColor" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="SceneGroundColor" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">57, 64, 69</Value>
+    </Setting>
+    <Setting Name="FaceHorizontal" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">Red</Value>
+    </Setting>
+    <Setting Name="DefaultSupportColor" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">Gray</Value>
+    </Setting>
+    <Setting Name="DefaultSurfaceSupportColor" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">LightGray</Value>
+    </Setting>
+    <Setting Name="DefaultSurfaceSupportFaceSelectedColor" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="DefaultSurfaceSupportFaceColor" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">Yellow</Value>
+    </Setting>
+    <Setting Name="SceneBackgroundColor" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="MaterialCatalogURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://atum3d.sharepoint.com/_layouts/15/guestaccess.aspx?docid=0c3b5df5b855141b9b5437fc55aa131ad&amp;authkey=AVIIo5Tu16DtSOyzBCwbiFA</Value>
+    </Setting>
+    <Setting Name="SoftwareUpdate_Restart_Text" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">atum3D Operator Station needs to be closed to apply this update.
+
+Are you sure to continue?</Value>
+    </Setting>
+    <Setting Name="RotationGizmoAngleSelectionOverlay" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">Aqua</Value>
+    </Setting>
+    <Setting Name="SceneControlFontColor" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">192, 255, 255</Value>
+    </Setting>
+    <Setting Name="atum3D_MaterialCatalog_AtumVxx" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://atum3d.sharepoint.com/_layouts/15/guestaccess.aspx?docid=0c3b5df5b855141b9b5437fc55aa131ad&amp;authkey=AVIIo5Tu16DtSOyzBCwbiFA</Value>
+    </Setting>
+    <Setting Name="SceneGroundFrontTextColor" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">Gray</Value>
+    </Setting>
+    <Setting Name="SceneViewMAGSBlendFactor" Type="System.Byte" Scope="Application">
+      <Value Profile="(Default)">128</Value>
+    </Setting>
+    <Setting Name="SoftwareUpdate_Restart_Caption_Text" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Close to apply the update.</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

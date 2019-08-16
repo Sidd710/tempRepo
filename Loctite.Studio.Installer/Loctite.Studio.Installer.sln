@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Loctite.Studio.Installer", "Loctite.Studio.Installer.vdproj", "{2DEC3D75-FF6E-477D-8109-A3436DD9B828}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Loctite|Default = Loctite|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DEC3D75-FF6E-477D-8109-A3436DD9B828}.Debug|Default.ActiveCfg = Debug
+		{2DEC3D75-FF6E-477D-8109-A3436DD9B828}.Debug|Default.Build.0 = Debug
+		{2DEC3D75-FF6E-477D-8109-A3436DD9B828}.Loctite|Default.ActiveCfg = Loctite
+		{2DEC3D75-FF6E-477D-8109-A3436DD9B828}.Loctite|Default.Build.0 = Loctite
+		{2DEC3D75-FF6E-477D-8109-A3436DD9B828}.Release|Default.ActiveCfg = Release
+		{2DEC3D75-FF6E-477D-8109-A3436DD9B828}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CEE67B9-AA10-42B1-AF2F-CB2F09EFE1C1}
+	EndGlobalSection
+EndGlobal
